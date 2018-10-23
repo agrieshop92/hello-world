@@ -399,11 +399,46 @@ On the other hand, if you use a Striped volume, you can also combine two or more
 
 The minimum space required for Windows 10 is 20GB. That is the allocated space to be used by Windows for the OS files. So if you have two separate drives installed, the total space would be 40GB used, leaving 1.96TB. There's also healthy recovery partitions to remember as well, that takes up about 600MB, which leaves you with roughly 1.9594 terabytes. However, this is all hypothetical, as a fresh Windows installation allows you to choose how much space you wish to allocate when you first set it up. 
 
-## __*.::Class 10::.*__
+## __*.::Class 10:No Class::.*__
+
+### __Skill 2.3 Checkpoint__
+
+__Lab 09__
+- 1.2.1: How many printer devices are installed on this machine?
+- 2.1.1: How many printing devices are now displayed in the Devices and Printers window?
+- 3.1.1: What is the title of the new window that has appeared?
+- 3.1.2: What extension is placed on the Printed File document now saved on the desktop?
+- 3.1.3: Besides the original types message, what else is displayed in this Printed File?
+- 4.1.1: Which device has become the default printer now that the Virtual Printer has been
+removed?
+
+__Lab 10__
+- 1.2.1: How many printer devices are installed on this machine?
+- 2.1.1: How many printing devices are now displayed in the Devices and Printers window?
+- 3.1.1: What is now shown in the description at the bottom of the window?
+- 4.1.1: How many printer devices are installed on the PC1 machine?
+- 4.1.2: How many printers are now listed in the Devices and Printers window?
+- 4.1.3: What is the title of the window that opens?
+- 4.1.4: Did the file appear on the desktop?
+
+__Lab 11__
+- 1.2.1: Which application(s) are set to start with the Windows 10 client at login?
+- 1.2.2: How would you prevent the application from starting with the Windows 10 client at
+login?
+- 1.2.2: Where is the application executable file located? (hint: use Properties or Open file
+location)?
+- 2.1.1: What folder has opened on PC1?
+- 2.1.2: When do you expect the WebServer shortcut to run?
+- 3.1.1: How many applications are now listed to start with the Windows 10 client at login?
+- 4.1.1: After successful login to PC1, did anything open up automatically on the machine?
+- 4.1.2: Do you expect the Internet browser to open again at next restart?
+- 4.1.2: If there is no Delete button here, how would you go about removing the WebServer
+startup task manually?
+
+## __*.::Class 11::.*__
 
 ### Class Notes
 
 ### __Class Activity__
 
 ### __Skill 2.3 Checkpoint__
-
