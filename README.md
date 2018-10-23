@@ -405,35 +405,57 @@ The minimum space required for Windows 10 is 20GB. That is the allocated space t
 
 __Lab 09__
 - 1.2.1: How many printer devices are installed on this machine?
+  - There are 3 devices installed; Fax, Microsoft Print to PDF, and Microsoft XPS Document Writer. There are no actual printers installed. 
 - 2.1.1: How many printing devices are now displayed in the Devices and Printers window?
+  - There are now 4 devices showing, the newest one being the Virtual Printer I just created.
 - 3.1.1: What is the title of the new window that has appeared?
+  - 'Save Print Output As'
 - 3.1.2: What extension is placed on the Printed File document now saved on the desktop?
+  - .prn
 - 3.1.3: Besides the original types message, what else is displayed in this Printed File?
+  - Nothing else is displayed
 - 4.1.1: Which device has become the default printer now that the Virtual Printer has been
 removed?
+  - Microsoft Print to PDF.
 
 __Lab 10__
 - 1.2.1: How many printer devices are installed on this machine?
+  - There are 3 devices installed; Fax, Microsoft Print to PDF, and Microsoft XPS Document Writer. There are no actual printers installed. 
 - 2.1.1: How many printing devices are now displayed in the Devices and Printers window?
+  - There are now 4 devices showing, the newest one being the Network Virtual Printer I just created.
 - 3.1.1: What is now shown in the description at the bottom of the window?
+  - The description shows a green check mark next to an icon of people, the model of the printer, the category of the printer, and the status of the printer. 
 - 4.1.1: How many printer devices are installed on the PC1 machine?
+  - There are 3 devices installed; Fax, Microsoft Print to PDF, and Microsoft XPS Document Writer. There are no actual printers installed. 
 - 4.1.2: How many printers are now listed in the Devices and Printers window?
+  - There are now 4 devices showing, the newest one being the Network Virtual Printer that was just recently added.
 - 4.1.3: What is the title of the window that opens?
+  - Save Print Output As
 - 4.1.4: Did the file appear on the desktop?
+  - Yes
 
 __Lab 11__
 - 1.2.1: Which application(s) are set to start with the Windows 10 client at login?
+  - Microsoft One Drive and VM tools core service
 - 1.2.2: How would you prevent the application from starting with the Windows 10 client at
 login?
+  - Right click the service and select 'disable.'
 - 1.2.2: Where is the application executable file located? (hint: use Properties or Open file
 location)?
+  - Local disc C: > Program Files > Folder of the program name > .exe
 - 2.1.1: What folder has opened on PC1?
+  - The startup folder 
 - 2.1.2: When do you expect the WebServer shortcut to run?
+  - On startup
 - 3.1.1: How many applications are now listed to start with the Windows 10 client at login?
+  - Three, including the new WebServer shortcut.
 - 4.1.1: After successful login to PC1, did anything open up automatically on the machine?
+  - The internet browser showing the WebServer IP
 - 4.1.2: Do you expect the Internet browser to open again at next restart?
+  - No
 - 4.1.2: If there is no Delete button here, how would you go about removing the WebServer
 startup task manually?
+  - Entering the shell:Startup folder and removing the shortcut.
 
 ## __*.::Class 11::.*__
 
@@ -441,4 +463,4 @@ startup task manually?
 
 ### __Class Activity__
 
-### __Skill 2.3 Checkpoint__
+### __Skill 2.4 Checkpoint__
