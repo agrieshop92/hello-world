@@ -463,7 +463,7 @@ startup task manually?
 
 ### __Class Activity__
 
-Browse the Windows store. What app did you find that surprised you? Is there an essential app to your life missing that is from the store? What is it and where can one find it? 
+_Browse the Windows store. What app did you find that surprised you? Is there an essential app to your life missing that is from the store? What is it and where can one find it?_ 
 
 Paint.net is an app that surprised me as being on the Windows Store, as I've personally used paint.net in the past. In fact, I've gotten it for free as a download off of the website directly, however what is surprising about this app is that it costs $3.99 to use on the Windows Store! What a rip off. An essential app to my life that is missing is Microsoft Office - but only on the Surface 3 app store. I have a Surface 3 at home personally, and it's always bothered me that I am unable to use one of Microsoft's biggest products, Office, because it is not available in the store. You can find this same app on the Microsoft Store located on a regular Windows 10 PC and probably other Windows devices, but not the Surface 3. 
 
