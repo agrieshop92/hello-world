@@ -459,17 +459,13 @@ startup task manually?
 
 ## __*.::Class 11::.*__
 
-### Class Notes
-
-
-
 ### __Class Activity__
 
 _Browse the Windows store. What app did you find that surprised you? Is there an essential app to your life missing that is from the store? What is it and where can one find it?_ 
 
 Paint.net is an app that surprised me as being on the Windows Store, as I've personally used paint.net in the past. In fact, I've gotten it for free as a download off of the website directly, however what is surprising about this app is that it costs $3.49(on sale, it's normally $6.99) to use on the Windows Store! What a rip off. An essential app to my life that is missing is Microsoft Office - but only on the Surface 3 app store. I have a Surface 3 at home personally, and it's always bothered me that I am unable to use one of Microsoft's biggest products, Office, because it is not available in the store. You can find this same app on the Microsoft Store located on a regular Windows 10 PC and probably other Windows devices, but not the Surface 3. 
 
-_You work for a small business of 25 employees, split between two offices that are in different buildings, but share a parking lot. You have been tasked with designing a file sharing solution that is fast, relaible, easy to use, and secure. What would you do?_
+_You work for a small business of 25 employees, split between two offices that are in different buildings, but share a parking lot. You have been tasked with designing a file sharing solution that is fast, reliable, easy to use, and secure. What would you do?_
 
  - Local server with SFTP protocol enabled that runs over SSH.
  - VPN endpoint between the two, with accessible storage or a wireless ridge.
@@ -480,20 +476,19 @@ _You work for a small business of 25 employees, split between two offices that a
  
 _You work for a small business of 25 employees, split between two offices that are in different buildings, but share a parking lot. You have been tasked with Deploying Microsoft Office to all machines, Adobe CS Suit to the marketing team, and QuickBooks to the Accounting Team. You also wants to allow users to selectively install Adobe Acrobat. What would you do?_
 
- - You can use the Active Directory server tools for the server management, to create groups, then set up a group policy for each group that can be used to push out a .ppk provisioning package specific to each group. For example, the Marketing team gets a group policy update that has a .ppk package that includes Adobe CS suite. This package will install Adobe CS, then validate the package from a set of keys using a script, also included in the group policy update, in order to activate the license for the Adobe CS. (After the key is used the key is erased from the file. I'm not techincal enough to explain how the script works, call it a 'logib bomb'.) After the specific program for the specific group is installed, it will also drop a file on their desktop to install Adobe Acrobat, included with a unique key in a .txt file, in the event that the user would like to install Adobe Acrobat. 
-
 ### __Skill 2.4 Checkpoint__
 
-_Windows 10 is about to be deployed throughout your organization. You must now consider strategies for how best to implement apps for your users. Users require access to a number of desktop apps, including Microsoft Office 2016. Many users also want to be able to download and install Microsoft Store Apps for their Windows 10-based devices. Finally, your IT manager has been discussing the feasibility of making the sales-tracking app available to your users. Only the sales team uses this small, task-focused app._
+ - You can use the Active Directory server tools for the server management, to create groups, then set up a group policy for each group that can be used to push out a .ppk provisioning package specific to each group. For example, the Marketing team gets a group policy update that has a .ppk package that includes Adobe CS suite. This package will install Adobe CS, then validate the package from a set of keys using a script, also included in the group policy update, in order to activate the license for the Adobe CS. (After the key is used the key is erased from the file. I'm not technical enough to explain how the script works, call it a 'logic bomb'.) After the specific program for the specific group is installed, it will also drop a file on their desktop to install Adobe Acrobat, included with a unique key in a .txt file, in the event that the user would like to install Adobe Acrobat. 
+ 
+ - You can also use... 
+ - SSEM
+ - Github Desktop
+ - CC Cleaner Cloud
 
-_As a consultant for Adatum Corporation, answer the following questions about the app deployment within the Adatum organization._
+## __*.::Class 12::.*__
 
-1. You have 1,000 Windows 10-based desktop computers that require Microsoft Office 2016. How will you deal with this?
+### Class Notes
 
-2. You want to deploy a subset of Adatum’s required apps to several hundred computers after Windows 10 has been deployed. What technologies could you use to assist in this?
+### __Class Activity__
 
-3. How might you make the Sales app available to your users?
-
-4. After deploying the required apps to your users’ devices and computers, you begin to receive complaints about slow startup times. What can you do to improve startup times?
-
-5. You have a line-of-business app that users in your Sales department need to access. How might you achieve that without using the Microsoft Store for Business?
+### __Skill 2.5 Checkpoint__
