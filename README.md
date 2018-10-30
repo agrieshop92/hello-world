@@ -459,8 +459,36 @@ startup task manually?
 
 ## __*.::Class 11::.*__
 
+### __Class Activity__
+
+_Browse the Windows store. What app did you find that surprised you? Is there an essential app to your life missing that is from the store? What is it and where can one find it?_ 
+
+Paint.net is an app that surprised me as being on the Windows Store, as I've personally used paint.net in the past. In fact, I've gotten it for free as a download off of the website directly, however what is surprising about this app is that it costs $3.49(on sale, it's normally $6.99) to use on the Windows Store! What a rip off. An essential app to my life that is missing is Microsoft Office - but only on the Surface 3 app store. I have a Surface 3 at home personally, and it's always bothered me that I am unable to use one of Microsoft's biggest products, Office, because it is not available in the store. You can find this same app on the Microsoft Store located on a regular Windows 10 PC and probably other Windows devices, but not the Surface 3. 
+
+_You work for a small business of 25 employees, split between two offices that are in different buildings, but share a parking lot. You have been tasked with designing a file sharing solution that is fast, reliable, easy to use, and secure. What would you do?_
+
+ - Local server with SFTP protocol enabled that runs over SSH.
+ - VPN endpoint between the two, with accessible storage or a wireless ridge.
+ - Google Cloud Enterprise or Google Vault
+ - Amazon Web Services FTP server
+ - Filezilla 
+ - Share File or OneDrive with MAC address whitelisting
+ 
+_You work for a small business of 25 employees, split between two offices that are in different buildings, but share a parking lot. You have been tasked with Deploying Microsoft Office to all machines, Adobe CS Suit to the marketing team, and QuickBooks to the Accounting Team. You also wants to allow users to selectively install Adobe Acrobat. What would you do?_
+
+### __Skill 2.4 Checkpoint__
+
+ - You can use the Active Directory server tools for the server management, to create groups, then set up a group policy for each group that can be used to push out a .ppk provisioning package specific to each group. For example, the Marketing team gets a group policy update that has a .ppk package that includes Adobe CS suite. This package will install Adobe CS, then validate the package from a set of keys using a script, also included in the group policy update, in order to activate the license for the Adobe CS. (After the key is used the key is erased from the file. I'm not technical enough to explain how the script works, call it a 'logic bomb'.) After the specific program for the specific group is installed, it will also drop a file on their desktop to install Adobe Acrobat, included with a unique key in a .txt file, in the event that the user would like to install Adobe Acrobat. 
+ 
+ - You can also use... 
+ - SSEM
+ - Github Desktop
+ - CC Cleaner Cloud
+
+## __*.::Class 12::.*__
+
 ### Class Notes
 
 ### __Class Activity__
 
-### __Skill 2.4 Checkpoint__
+### __Skill 2.5 Checkpoint__
