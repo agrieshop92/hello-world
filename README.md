@@ -461,10 +461,35 @@ startup task manually?
 
 ### Class Notes
 
+
+
 ### __Class Activity__
 
 _Browse the Windows store. What app did you find that surprised you? Is there an essential app to your life missing that is from the store? What is it and where can one find it?_ 
 
 Paint.net is an app that surprised me as being on the Windows Store, as I've personally used paint.net in the past. In fact, I've gotten it for free as a download off of the website directly, however what is surprising about this app is that it costs $3.49(on sale, it's normally $6.99) to use on the Windows Store! What a rip off. An essential app to my life that is missing is Microsoft Office - but only on the Surface 3 app store. I have a Surface 3 at home personally, and it's always bothered me that I am unable to use one of Microsoft's biggest products, Office, because it is not available in the store. You can find this same app on the Microsoft Store located on a regular Windows 10 PC and probably other Windows devices, but not the Surface 3. 
 
+_You work for a small business of 25 employees, split between two offices that are in different buildings, but share a parking lot. You have been tasked with designing a file sharing solution that is fast, relaible, easy to use, and secure. What would you do?_
+
+ - Local server with SFTP protocol enabled that runs over SSH.
+ - VPN endpoint between the two, with accessible storage or a wireless ridge.
+ - Google Cloud Enterprise or Google Vault
+ - Amazon Web Services FTP server
+ - Filezilla 
+ - Share File or OneDrive with MAC address whitelisting
+
 ### __Skill 2.4 Checkpoint__
+
+_Windows 10 is about to be deployed throughout your organization. You must now consider strategies for how best to implement apps for your users. Users require access to a number of desktop apps, including Microsoft Office 2016. Many users also want to be able to download and install Microsoft Store Apps for their Windows 10-based devices. Finally, your IT manager has been discussing the feasibility of making the sales-tracking app available to your users. Only the sales team uses this small, task-focused app._
+
+_As a consultant for Adatum Corporation, answer the following questions about the app deployment within the Adatum organization._
+
+1. You have 1,000 Windows 10-based desktop computers that require Microsoft Office 2016. How will you deal with this?
+
+2. You want to deploy a subset of Adatum’s required apps to several hundred computers after Windows 10 has been deployed. What technologies could you use to assist in this?
+
+3. How might you make the Sales app available to your users?
+
+4. deploying the required apps to your users’ devices and computers, you begin to receive complaints about slow startup times. What can you do to improve startup times?
+
+5. You have a line-of-business app that users in your Sales department need to access. How might you achieve that without using the Microsoft Store for Business?
