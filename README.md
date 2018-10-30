@@ -477,6 +477,10 @@ _You work for a small business of 25 employees, split between two offices that a
  - Amazon Web Services FTP server
  - Filezilla 
  - Share File or OneDrive with MAC address whitelisting
+ 
+_You work for a small business of 25 employees, split between two offices that are in different buildings, but share a parking lot. You have been tasked with Deploying Microsoft Office to all machines, Adobe CS Suit to the marketing team, and QuickBooks to the Accounting Team. You also wants to allow users to selectively install Adobe Acrobat. What would you do?_
+
+ - You can use the Active Directory server tools for the server management, to create groups, then set up a group policy for each group that can be used to push out a .ppk provisioning package specific to each group. For example, the Marketing team gets a group policy update that has a .ppk package that includes Adobe CS suite. This package will install Adobe CS, then validate the package from a set of keys using a script, also included in the group policy update, in order to activate the license for the Adobe CS. (After the key is used the key is erased from the file. I'm not techincal enough to explain how the script works, call it a 'logib bomb'.) After the specific program for the specific group is installed, it will also drop a file on their desktop to install Adobe Acrobat, included with a unique key in a .txt file, in the event that the user would like to install Adobe Acrobat. 
 
 ### __Skill 2.4 Checkpoint__
 
@@ -490,6 +494,6 @@ _As a consultant for Adatum Corporation, answer the following questions about th
 
 3. How might you make the Sales app available to your users?
 
-4. deploying the required apps to your users’ devices and computers, you begin to receive complaints about slow startup times. What can you do to improve startup times?
+4. After deploying the required apps to your users’ devices and computers, you begin to receive complaints about slow startup times. What can you do to improve startup times?
 
 5. You have a line-of-business app that users in your Sales department need to access. How might you achieve that without using the Microsoft Store for Business?
