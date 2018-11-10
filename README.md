@@ -491,23 +491,23 @@ _You work for a small business of 25 employees, split between two offices that a
 
 - 1.3.1: Given the message (as shown above), of the three possible reasons listed, which one is
 the most likely to be the cause of the remote connection failure?
-  - f
+  - Remote Access to the server is not enabled.
 - 3.1.1: After the Remote Desktop successfully connects, what is displayed on the top of the
 screen that identifies PC1 is being used?
-  - f
+  - A blue ribbon at the top that shows the IP of the computer you are connected to.
 - 3.1.1: While remotely connected to PC1, click on the Start Menu and select the Power icon.
 What option(s) is listed there at this time?
-  - f
+  - "Disconnect"
 - 4.1.1: Why is it necessary to login to the PC1 machine again?
-  -  f
+  -  Remoting desktoping into the PC1 machine logs it off.
 - 4.1.2: Is the file created by PC2 on the desktop?
-  - f
+  - Yes.
 - 4.1.2: What are some benefits of using the Remote Desktop Connection?
-  - f
+  - Ability to help a user with techincal issues.
 - 5Bonus: Joe is a new IT Director who is tasked with making sure his Windows 10 computer users can be assisted remotely. On his first day at the company, Joe was told that the Remote Assistance feature was not working for users after a new firewall was installed. What could be causing the problem and how should it be addressed?
-  - f
+  - The firewall has the RDP protocol disabled, to block the rmeote connections for a more secure problem. Joe can adjust the firewall to allow a RDP connection within the internal network only.
 - 6Bonus: You are an administrator at the Contoso Corporation. You have a 12-person help desk that supports about 10,000 users spread out over a 5-building campus. You don’t have enough people to provide support staff visits to a user who is having problems. Describe the actions you can take to support your company users.
-  - f
+  - You can use someone from your staff to walk the customer through a remote desktop connection, by having them give the tehcnicaian the IP address, enabling the remote desktop connection through the windows 'Remote Desktop Connection' menu, and then connecting to the computer remotely, in order to assist the customers. Alternatively, you can use a third party program that allows a remote connection (such as LogMeIn) in order to gain control of a customer's computer, with their consent, and help them resolve the issue. 
 
 
 ## __*.::Class 13 - Holiday::.*__
