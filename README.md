@@ -485,7 +485,31 @@ _You work for a small business of 25 employees, split between two offices that a
  - Github Desktop
  - CC Cleaner Cloud
 
-## __*.::Class 12::.*__
+## __*.::Class 12 - No Class::.*__
+
+### __Skill 2.5 Checkpoint__
+
+- 1.3.1: Given the message (as shown above), of the three possible reasons listed, which one is
+the most likely to be the cause of the remote connection failure?
+ - 
+- 3.1.1: After the Remote Desktop successfully connects, what is displayed on the top of the
+screen that identifies PC1 is being used?
+ - 
+- 3.1.1: While remotely connected to PC1, click on the Start Menu and select the Power icon.
+What option(s) is listed there at this time?
+ - 
+- 4.1.1: Why is it necessary to login to the PC1 machine again?
+ - 
+- 4.1.2: Is the file created by PC2 on the desktop?
+ - 
+- 4.1.2: What are some benefits of using the Remote Desktop Connection?
+ - 
+- 5Bonus: Joe is a new IT Director who is tasked with making sure his Windows 10 computer users can be assisted remotely. On his first day at the company, Joe was told that the Remote Assistance feature was not working for users after a new firewall was installed. What could be causing the problem and how should it be addressed?
+ - 
+- 6Bonus: You are an administrator at the Contoso Corporation. You have a 12-person help desk that supports about 10,000 users spread out over a 5-building campus. You don’t have enough people to provide support staff visits to a user who is having problems. Describe the actions you can take to support your company users.
+
+
+## __*.::Class 13 - Holiday::.*__
 
 ### Class Notes
 
