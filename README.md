@@ -512,8 +512,27 @@ What option(s) is listed there at this time?
 
 ## __*.::Class 13 - Holiday::.*__
 
+### __Skill 3.1 Checkpoint__
+
+- 1.2.1: Why is it beneficial to leave the Allow scheduled maintenance to wake up my computer
+at the schedule time option check-marked?
+   - This allows the computer, if it sleep mode, to 'wake up', so that it can perform the maintence, which may include important updates, to be performed so that your PC stays up-to-date, therefore keeping it secure. 
+ - 1.2.2: After Start maintenance has completed, what message is shown next to Automatic
+Maintenance? (hint: Needed/Not Needed)?
+   - 'No action needed'
+ - 2.1.0: What would occur if the Value data field used a value of 0?
+   - The maintence would continue to run as normal. 
+ - 3Bonus: You are an IT manager and would like to use a virtual machine to keep up to date on the latest development in Windows 10 and access the preview builds.  How would you go about doing this?
+   - You could use HyperV, a built in windows application to use Virtual Machines. This will allow you to set up a Windows 10 VM on your host machine in order to download the latest development issued form Windows. This is especially useful since HyperV is a windows product, there they keep the supported VMs up to date.
+  - 4Bonus: As an IT manager, one of the departments you support is Physical Plant Operations.  They use a specialized application to run power generators that does not need access to the Internet or require any operating software updates.  Which branch of Windows 10 will you recommend for use by the Physical Plant Operations department?  Why?
+   - Windows 10 Pro. You can select an option to defer upgrades. You’ll continue to receive security patches, but you won’t get feature updates until several months after the Current Branch (the most up-to-date Windows) gets them. 
+ - 5Bonus: As an IT manager, you have developed a custom image of Windows 10 that is deployed to all general users.  You do not want the users to be able to install additional software, including applications found in the Windows Store.  How could you prevent users from installing apps from the Windows Store?
+   - You could use the Windows Assessment and Deployment Kit to create a windows 10 image that disallows and already has a group policy function to not allow additional software from being installed. Alternatively, you could use the Windows Business Store, which allows the admin that controls the store meant for one business to control what apps, if any, are able to be downloaded.   
+
+## __*.::Class 14 - Cancelled::.*__
+
 ### Class Notes
 
 ### __Class Activity__
 
-### __Skill 2.5 Checkpoint__
+### __Skill 3.2 Checkpoint__
