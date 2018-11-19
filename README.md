@@ -485,10 +485,54 @@ _You work for a small business of 25 employees, split between two offices that a
  - Github Desktop
  - CC Cleaner Cloud
 
-## __*.::Class 12::.*__
+## __*.::Class 12 - No Class::.*__
+
+### __Skill 2.5 Checkpoint__
+
+- 1.3.1: Given the message (as shown above), of the three possible reasons listed, which one is
+the most likely to be the cause of the remote connection failure?
+  - Remote Access to the server is not enabled.
+- 3.1.1: After the Remote Desktop successfully connects, what is displayed on the top of the
+screen that identifies PC1 is being used?
+  - A blue ribbon at the top that shows the IP of the computer you are connected to.
+- 3.1.1: While remotely connected to PC1, click on the Start Menu and select the Power icon.
+What option(s) is listed there at this time?
+  - "Disconnect"
+- 4.1.1: Why is it necessary to login to the PC1 machine again?
+  -  Remoting desktoping into the PC1 machine logs it off.
+- 4.1.2: Is the file created by PC2 on the desktop?
+  - Yes.
+- 4.1.2: What are some benefits of using the Remote Desktop Connection?
+  - Ability to help a user with techincal issues.
+- 5Bonus: Joe is a new IT Director who is tasked with making sure his Windows 10 computer users can be assisted remotely. On his first day at the company, Joe was told that the Remote Assistance feature was not working for users after a new firewall was installed. What could be causing the problem and how should it be addressed?
+  - The firewall has the RDP protocol disabled, to block the rmeote connections for a more secure problem. Joe can adjust the firewall to allow a RDP connection within the internal network only.
+- 6Bonus: You are an administrator at the Contoso Corporation. You have a 12-person help desk that supports about 10,000 users spread out over a 5-building campus. You don’t have enough people to provide support staff visits to a user who is having problems. Describe the actions you can take to support your company users.
+  - You can use someone from your staff to walk the customer through a remote desktop connection, by having them give the tehcnicaian the IP address, enabling the remote desktop connection through the windows 'Remote Desktop Connection' menu, and then connecting to the computer remotely, in order to assist the customers. Alternatively, you can use a third party program that allows a remote connection (such as LogMeIn) in order to gain control of a customer's computer, with their consent, and help them resolve the issue. 
+
+
+## __*.::Class 13 - Holiday::.*__
+
+### __Skill 3.1 Checkpoint__
+
+- 1.2.1: Why is it beneficial to leave the Allow scheduled maintenance to wake up my computer
+at the schedule time option check-marked?
+   - This allows the computer, if it sleep mode, to 'wake up', so that it can perform the maintence, which may include important updates, to be performed so that your PC stays up-to-date, therefore keeping it secure. 
+ - 1.2.2: After Start maintenance has completed, what message is shown next to Automatic
+Maintenance? (hint: Needed/Not Needed)?
+   - 'No action needed'
+ - 2.1.0: What would occur if the Value data field used a value of 0?
+   - The maintence would continue to run as normal. 
+ - 3Bonus: You are an IT manager and would like to use a virtual machine to keep up to date on the latest development in Windows 10 and access the preview builds.  How would you go about doing this?
+   - You could use HyperV, a built in windows application to use Virtual Machines. This will allow you to set up a Windows 10 VM on your host machine in order to download the latest development issued form Windows. This is especially useful since HyperV is a windows product, there they keep the supported VMs up to date.
+  - 4Bonus: As an IT manager, one of the departments you support is Physical Plant Operations.  They use a specialized application to run power generators that does not need access to the Internet or require any operating software updates.  Which branch of Windows 10 will you recommend for use by the Physical Plant Operations department?  Why?
+   - Windows 10 Pro. You can select an option to defer upgrades. You’ll continue to receive security patches, but you won’t get feature updates until several months after the Current Branch (the most up-to-date Windows) gets them. 
+ - 5Bonus: As an IT manager, you have developed a custom image of Windows 10 that is deployed to all general users.  You do not want the users to be able to install additional software, including applications found in the Windows Store.  How could you prevent users from installing apps from the Windows Store?
+   - You could use the Windows Assessment and Deployment Kit to create a windows 10 image that disallows and already has a group policy function to not allow additional software from being installed. Alternatively, you could use the Windows Business Store, which allows the admin that controls the store meant for one business to control what apps, if any, are able to be downloaded.   
+
+## __*.::Class 14 - Cancelled::.*__
 
 ### Class Notes
 
 ### __Class Activity__
 
-### __Skill 2.5 Checkpoint__
+### __Skill 3.2 Checkpoint__
