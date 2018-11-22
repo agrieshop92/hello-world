@@ -504,9 +504,9 @@ What option(s) is listed there at this time?
   - Yes.
 - 4.1.2: What are some benefits of using the Remote Desktop Connection?
   - Ability to help a user with techincal issues.
-- 5Bonus: Joe is a new IT Director who is tasked with making sure his Windows 10 computer users can be assisted remotely. On his first day at the company, Joe was told that the Remote Assistance feature was not working for users after a new firewall was installed. What could be causing the problem and how should it be addressed?
+- Bonus1: Joe is a new IT Director who is tasked with making sure his Windows 10 computer users can be assisted remotely. On his first day at the company, Joe was told that the Remote Assistance feature was not working for users after a new firewall was installed. What could be causing the problem and how should it be addressed?
   - The firewall has the RDP protocol disabled, to block the rmeote connections for a more secure problem. Joe can adjust the firewall to allow a RDP connection within the internal network only.
-- 6Bonus: You are an administrator at the Contoso Corporation. You have a 12-person help desk that supports about 10,000 users spread out over a 5-building campus. You don’t have enough people to provide support staff visits to a user who is having problems. Describe the actions you can take to support your company users.
+- Bonus2: You are an administrator at the Contoso Corporation. You have a 12-person help desk that supports about 10,000 users spread out over a 5-building campus. You don’t have enough people to provide support staff visits to a user who is having problems. Describe the actions you can take to support your company users.
   - You can use someone from your staff to walk the customer through a remote desktop connection, by having them give the tehcnicaian the IP address, enabling the remote desktop connection through the windows 'Remote Desktop Connection' menu, and then connecting to the computer remotely, in order to assist the customers. Alternatively, you can use a third party program that allows a remote connection (such as LogMeIn) in order to gain control of a customer's computer, with their consent, and help them resolve the issue. 
 
 
@@ -522,17 +522,62 @@ Maintenance? (hint: Needed/Not Needed)?
    - 'No action needed'
  - 2.1.0: What would occur if the Value data field used a value of 0?
    - The maintence would continue to run as normal. 
- - 3Bonus: You are an IT manager and would like to use a virtual machine to keep up to date on the latest development in Windows 10 and access the preview builds.  How would you go about doing this?
+ - Bonus1: You are an IT manager and would like to use a virtual machine to keep up to date on the latest development in Windows 10 and access the preview builds.  How would you go about doing this?
    - You could use HyperV, a built in windows application to use Virtual Machines. This will allow you to set up a Windows 10 VM on your host machine in order to download the latest development issued form Windows. This is especially useful since HyperV is a windows product, there they keep the supported VMs up to date.
-  - 4Bonus: As an IT manager, one of the departments you support is Physical Plant Operations.  They use a specialized application to run power generators that does not need access to the Internet or require any operating software updates.  Which branch of Windows 10 will you recommend for use by the Physical Plant Operations department?  Why?
+  - Bonus2: As an IT manager, one of the departments you support is Physical Plant Operations.  They use a specialized application to run power generators that does not need access to the Internet or require any operating software updates.  Which branch of Windows 10 will you recommend for use by the Physical Plant Operations department?  Why?
     - Windows 10 Pro. You can select an option to defer upgrades. You’ll continue to receive security patches, but you won’t get feature updates until several months after the Current Branch (the most up-to-date Windows) gets them. 
- - 5Bonus: As an IT manager, you have developed a custom image of Windows 10 that is deployed to all general users.  You do not want the users to be able to install additional software, including applications found in the Windows Store.  How could you prevent users from installing apps from the Windows Store?
+ - Bonus3: As an IT manager, you have developed a custom image of Windows 10 that is deployed to all general users.  You do not want the users to be able to install additional software, including applications found in the Windows Store.  How could you prevent users from installing apps from the Windows Store?
    - You could use the Windows Assessment and Deployment Kit to create a windows 10 image that disallows and already has a group policy function to not allow additional software from being installed. Alternatively, you could use the Windows Business Store, which allows the admin that controls the store meant for one business to control what apps, if any, are able to be downloaded.   
 
 ## __*.::Class 14 - Cancelled::.*__
+
+### __Skill 3.2 & 3.3 Checkpoint__ 
+
+  
+
+- 1.2.1: What are the different status values that exist? 
+  - Running and stopped 
+- 1.2.2: Which services have a PID assigned to them (Stopped or Running)?  
+  - Running 
+- 1.3.1: How many threads are running? 
+  - 834 
+- 1.3.1: How many processes are running? 
+  - 38 
+- 1.3.2: How much physical memory is in use? 
+  - 960 MB 
+- 1.3.2: How much total memory is installed? 
+  - 0.9/2.6 GB 
+- 1.3.2: What percent of memory is utilized? 
+  - 45% 
+- 1.3.3: What is the total capacity of the hard drive disk? 
+  - 50 GB 
+- 1.3.3: What is the current active time utilization of the hard drive disk? 
+  - 0-1% 
+- 1.3.4: What is the IPV4 address of PC1? 
+  - 192.168.1.203 
+- 1.3.4: What is the IPV6 address of PC1? 
+  - fe80::a881:6d1c:2759:8aaf%6 
+- 1.3.5: Which application has used the CPU most often? 
+  - Cortana 
+- 1.3.6: What is using the most amount of memory? 
+  - Service host: Local System (18) 
+- 1.3.6: What is the percent of PC1 memory that is in use? 
+  - 46% 
+- 1.4.1: What is the percent of memory usage of PC1 now? 
+  - 49% 
+- 1.4.2: What is the percent of PC1 memory that the Microsoft Edge app is using? 
+  - 2% 
+- 1.4.2: What is the percent of memory that the Cortana background process is using? 
+  - 5.4% 
+- Bonus1: You are an IT manager and several computers belonging to support staff were recently upgraded from Windows 7 Pro to Windows 10 Enterprise.  You have received several complaints that "their computers are slow", "apps stop responding" and "websites are slow to load".  Describe the monitoring tools you would use to help diagnose the issues. 
+   - You could use task manager to monitor apps in real time, to see if any apps are taking up too much memory.  The task manager app features useful tools such as real time performance in the visual aid of updating charts, or a regular neatly laid out list of apps that are using the memory and CPU, in the form of percent. You can also view the app history within task manager to see what previously has been taking up memory and CPU, causing the computer to go slow. You can also use the resource monitor, located in the performance tab, to give you a lot more details regarding the app usage. Also look at the data collector, which shows you the output depending on the column you view.  
+- Bonus2: Your Sierra College instructor just gave you a free laptop (not going to happen). You want to make sure that the contents of that machine are periodically backed up and that you have access to previous versions of files. Describe the data recovery strategies you would implement on your new machine. 
+    - 2.First you can configure a recovery drive. This allows windows to create a recovery image on a USB drive or a backup hard drive that will allow you to restore that moment in time that you are backing up in the event that something bad happens. You can also setup system restore, which will periodically create a restore point for you, in the event that the computer is unstable. Of course, this is something you have to enable. You may also want to create a refresh or a recycle before performing any of these backup options. This allows you to start with a 'fresh' windows copy, and then back up the fresh copy to restore at a later date, if needed. 
+    
+## __*.::Class 15::.*__
 
 ### Class Notes
 
 ### __Class Activity__
 
-### __Skill 3.2 Checkpoint__
+### __Skill 3.4 Checkpoint__
