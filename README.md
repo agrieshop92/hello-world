@@ -574,10 +574,4 @@ Maintenance? (hint: Needed/Not Needed)?
 - Bonus2: Your Sierra College instructor just gave you a free laptop (not going to happen). You want to make sure that the contents of that machine are periodically backed up and that you have access to previous versions of files. Describe the data recovery strategies you would implement on your new machine. 
     - 2.First you can configure a recovery drive. This allows windows to create a recovery image on a USB drive or a backup hard drive that will allow you to restore that moment in time that you are backing up in the event that something bad happens. You can also setup system restore, which will periodically create a restore point for you, in the event that the computer is unstable. Of course, this is something you have to enable. You may also want to create a refresh or a recycle before performing any of these backup options. This allows you to start with a 'fresh' windows copy, and then back up the fresh copy to restore at a later date, if needed. 
     
-## __*.::Class 15::.*__
-
-### Class Notes
-
-### __Class Activity__
-
-### __Skill 3.4 Checkpoint__
+## __*.::END::.*__
